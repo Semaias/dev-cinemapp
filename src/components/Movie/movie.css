@@ -1,0 +1,35 @@
+.movie{
+  background-color: #3d5af1;
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.movie div.infoMovie{
+  display: flex;
+}
+
+.movie div.infoMovie div strong{
+  padding: 20px 0;
+}
+
+.movie div.infoMovie div h4{
+  margin: 5px 0;
+}
+
+.movie div.infoMovie::before{
+  content: '';
+  display: block;
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  background: #e2f3f5;
+}
+
+.movie button{
+  background: transparent;
+  border: none;
+  cursor: pointer
+}
