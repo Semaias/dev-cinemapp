@@ -54,7 +54,7 @@ export default function Search(){
                 <form>
                   <input
                     type="input"
-                    placeholder="O que você busca..."
+                    placeholder="O que você está procurando?"
                     value={searchText}
                     onChange={e => setSearchText(e.target.value)}
                   />

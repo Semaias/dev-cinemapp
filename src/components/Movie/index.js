@@ -59,7 +59,7 @@ export default function Movie({
   }
 
   return (
-    <div className="movie mt-3">
+    <div className="movie mt-1">
       <div className="infoMovie">
         <div>
           <strong>{title}</strong>

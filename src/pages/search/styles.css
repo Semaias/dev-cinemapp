@@ -13,3 +13,26 @@
   margin-bottom: 20px;
 }
 
+.header{
+  margin-top: 5vh;
+}
+
+input{
+  width: 50%;
+  height: 28pt;
+  border: none;
+  padding: 5px;
+}
+
+button{
+  width: 100px;
+  height: 28pt;
+  margin: 20px;
+
+  background: #3d5af1;
+  border: none;
+  border-radius: 20px;
+
+  font-size: 22pt;
+  color: #FFF;
+}

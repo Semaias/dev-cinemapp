@@ -38,6 +38,11 @@ export default function Favorites(){
             <div className="header">
               <h2>CinemApp</h2>
               <p>Bem-vindo ao mundo espetácular do cinema</p>
+              <>
+                <Col lg={12}>
+                  Recarregue a página para salvar as alterações
+                </Col>
+              </>
             </div>
           </Col>
         </Row>
